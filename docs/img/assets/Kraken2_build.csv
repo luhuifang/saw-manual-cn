@@ -1,0 +1,6 @@
+Parameter,Value
+--add-to-library,/path/to/fasta
+--db,/path/to/db
+
+--build
+--db,/path/to/db

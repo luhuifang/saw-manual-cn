@@ -1,0 +1,5 @@
+Reference,Type
+/path/to/index1,STAR
+/path/to/index2,Bowtie2
+/path/to/index3,Kraken2
+
