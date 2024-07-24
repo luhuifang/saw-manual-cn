@@ -13,7 +13,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                 if(value.attributes.getNamedItem('href')){
                     const href = value.attributes.getNamedItem('href').value
                     
-                    if(href.match(/.*\.html#.*/)){
+                    if(href.match(/.*\.html#.*/) && (!href.startsWith('http'))){
                         value.attributes.getNamedItem('href').value = a + href
                     }
                     
