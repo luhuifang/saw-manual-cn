@@ -15,6 +15,8 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
                     
                     if(href.match(/.*\.html#.*/) && (!href.startsWith('http'))){
                         value.attributes.getNamedItem('href').value = a + href
+                    }else if(href.startsWith('.#')){
+                        value.attributes.getNamedItem('href').value = a + 'index.html' + href.replace('.#', '#')
                     }
                     
                 }
