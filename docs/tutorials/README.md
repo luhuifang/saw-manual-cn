@@ -1,5 +1,0 @@
-# Tutorials
-
-Select a tutorial based on your kit version or analysis scenarios!
-
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><a href="../download-center.md"><mark style="color:purple;"><strong>Set up SAW</strong></mark></a></td><td>Download and install SAW</td></tr><tr><td><a href="stereo-seq-ff.md"><mark style="color:purple;"><strong>SAW for Stereo-seq FF</strong></mark></a></td><td>Learn how to SAW count on fresh frozen (FF) samples</td></tr><tr><td><a href="../analysis/pipelines/count/stereo-seq-n-ffpe-v1.0.md"><mark style="color:purple;"><strong>SAW for Stereo-seq FFPE</strong></mark></a></td><td>Learn how to perform SAW count on formalin-fixed paraffin-embedded (FFPE) samples</td></tr><tr><td><a href="with-manually-processed-files.md"><mark style="color:purple;"><strong>With manually processed files</strong></mark></a></td><td>Learn how to handle with manually processed images from StereoMap</td></tr><tr><td><mark style="color:purple;"><strong>SAW for Stereo-CITE FF</strong></mark></td><td>Coming soon ...</td></tr></tbody></table>
