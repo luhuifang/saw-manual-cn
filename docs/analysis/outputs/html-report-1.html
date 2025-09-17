@@ -1,0 +1,1252 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Copy of HTML report &#xB7; SAW User Manual</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content>
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-hints/plugin-hints.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tabs/bootstrap.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="bam.html">
+    
+    
+    <link rel="prev" href="html-report.html">
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary"><div class="book-logo-root"><div class="book-logo" style="text-align: center; padding: 20px;"><img src="data:image/png;base64,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" style><p class="book-title" style="font-weight:600">SAW &#x7528;&#x6237;&#x624B;&#x518C; 8.2 </p></div></div>
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="&#x8F93;&#x5165;&#x5E76;&#x641C;&#x7D22;">
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    &#x6982;&#x89C8;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../getting-started/">
+            
+                <a href="../../getting-started/">
+            
+                    
+                    &#x5FEB;&#x901F;&#x5F00;&#x59CB;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../../getting-started/introduction.html">
+            
+                <a href="../../getting-started/introduction.html">
+            
+                    
+                    &#x8F6F;&#x4EF6;&#x4ECB;&#x7ECD;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../../getting-started/glossary.html">
+            
+                <a href="../../getting-started/glossary.html">
+            
+                    
+                    &#x8BCD;&#x6C47;&#x8868;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../download-center.html">
+            
+                <a href="../../download-center.html">
+            
+                    
+                    &#x4E0B;&#x8F7D;&#x4E2D;&#x5FC3;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    &#x8FD0;&#x884C;&#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../inputs/">
+            
+                <a href="../inputs/">
+            
+                    
+                    &#x8F93;&#x5165;&#x6587;&#x4EF6;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="../inputs/chip-mask.html">
+            
+                <a href="../inputs/chip-mask.html">
+            
+                    
+                    &#x82AF;&#x7247; mask
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="../inputs/fastqs.html">
+            
+                <a href="../inputs/fastqs.html">
+            
+                    
+                    &#x6D4B;&#x5E8F; FASTQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="../inputs/images.html">
+            
+                <a href="../inputs/images.html">
+            
+                    
+                    &#x663E;&#x5FAE;&#x955C;&#x56FE;&#x50CF;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../pipelines/">
+            
+                <a href="../pipelines/">
+            
+                    
+                    &#x5206;&#x6790;&#x6D41;&#x7A0B;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" data-path="../pipelines/saw-can-shu-ming-ling.html">
+            
+                <a href="../pipelines/saw-can-shu-ming-ling.html">
+            
+                    
+                    SAW &#x53C2;&#x6570;&#x547D;&#x4EE4;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" data-path="../pipelines/count/">
+            
+                <a href="../pipelines/count/">
+            
+                    
+                    count
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.2.1" data-path="../pipelines/count/stereo-seq-t-ff.html">
+            
+                <a href="../pipelines/count/stereo-seq-t-ff.html">
+            
+                    
+                    Stereo-seq T FF
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2.2" data-path="../pipelines/count/stereo-seq-n-ffpe-v1.0.html">
+            
+                <a href="../pipelines/count/stereo-seq-n-ffpe-v1.0.html">
+            
+                    
+                    Stereo-seq N FFPE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2.3" data-path="../pipelines/count/stereo-cite-t-ff.html">
+            
+                <a href="../pipelines/count/stereo-cite-t-ff.html">
+            
+                    
+                    Stereo-CITE T FF
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    &#x8F93;&#x51FA;&#x7ED3;&#x679C;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.3.1" data-path="count-outputs.html">
+            
+                <a href="count-outputs.html">
+            
+                    
+                    count &#x8F93;&#x51FA;&#x7ED3;&#x679C;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.2" data-path="realign-outputs.html">
+            
+                <a href="realign-outputs.html">
+            
+                    
+                    realign &#x8F93;&#x51FA;&#x7ED3;&#x679C;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.3" data-path="html-report.html">
+            
+                <a href="html-report.html">
+            
+                    
+                    HTML report
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.3.4" data-path="html-report-1.html">
+            
+                <a href="html-report-1.html">
+            
+                    
+                    Copy of HTML report
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.5" data-path="bam.html">
+            
+                <a href="bam.html">
+            
+                    
+                    BAM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.6" data-path="matrices.html">
+            
+                <a href="matrices.html">
+            
+                    
+                    Matrices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.7" data-path="images.html">
+            
+                <a href="images.html">
+            
+                    
+                    Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3.8" data-path="analysis.html">
+            
+                <a href="analysis.html">
+            
+                    
+                    Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../shi-yong-jiao-cheng/">
+            
+                <a href="../../shi-yong-jiao-cheng/">
+            
+                    
+                    &#x4F7F;&#x7528;&#x6559;&#x7A0B;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../../shi-yong-jiao-cheng/preparation-of-reference/">
+            
+                <a href="../../shi-yong-jiao-cheng/preparation-of-reference/">
+            
+                    
+                    &#x6BD4;&#x5BF9;&#x6587;&#x4EF6;&#x51C6;&#x5907;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1.1" data-path="../../shi-yong-jiao-cheng/preparation-of-reference/gou-jian-suo-yin-wen-jian.html">
+            
+                <a href="../../shi-yong-jiao-cheng/preparation-of-reference/gou-jian-suo-yin-wen-jian.html">
+            
+                    
+                    &#x6784;&#x5EFA;&#x7D22;&#x5F15;&#x6587;&#x4EF6;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.2" data-path="../../shi-yong-jiao-cheng/preparation-of-reference/rrna-xin-xi-huo-qu.html">
+            
+                <a href="../../shi-yong-jiao-cheng/preparation-of-reference/rrna-xin-xi-huo-qu.html">
+            
+                    
+                    rRNA&#x4FE1;&#x606F;&#x83B7;&#x53D6;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.3" data-path="../../shi-yong-jiao-cheng/preparation-of-reference/jian-cha-zhu-shi-wen-jian.html">
+            
+                <a href="../../shi-yong-jiao-cheng/preparation-of-reference/jian-cha-zhu-shi-wen-jian.html">
+            
+                    
+                    &#x68C0;&#x67E5;&#x6CE8;&#x91CA;&#x6587;&#x4EF6;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.1.4" data-path="../../shi-yong-jiao-cheng/preparation-of-reference/she-zhi-dan-bai-panel.html">
+            
+                <a href="../../shi-yong-jiao-cheng/preparation-of-reference/she-zhi-dan-bai-panel.html">
+            
+                    
+                    &#x8BBE;&#x7F6E;&#x86CB;&#x767D;Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/">
+            
+                <a href="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/">
+            
+                    
+                    &#x8FD0;&#x884C;&#x6838;&#x5FC3;&#x5206;&#x6790;&#x6D41;&#x7A0B;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereo-seq-ff.html">
+            
+                <a href="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereo-seq-ff.html">
+            
+                    
+                    Stereo-seq FF &#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.2" data-path="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereo-seq-ffpe.html">
+            
+                <a href="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereo-seq-ffpe.html">
+            
+                    
+                    Stereo-seq FFPE &#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2.3" data-path="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereocite-ff-fen-xi.html">
+            
+                <a href="../../shi-yong-jiao-cheng/yun-xing-he-xin-fen-xi-liu-cheng/stereocite-ff-fen-xi.html">
+            
+                    
+                    Stereo-CITE FF &#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../../shi-yong-jiao-cheng/shou-dong-tu-xiang-chu-li.html">
+            
+                <a href="../../shi-yong-jiao-cheng/shou-dong-tu-xiang-chu-li.html">
+            
+                    
+                    &#x624B;&#x52A8;&#x56FE;&#x50CF;&#x5904;&#x7406;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../../shi-yong-jiao-cheng/secondary-analysis.html">
+            
+                <a href="../../shi-yong-jiao-cheng/secondary-analysis.html">
+            
+                    
+                    &#x6570;&#x636E;&#x518D;&#x5206;&#x6790;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../../shi-yong-jiao-cheng/shu-ju-ge-shi-zhuan-huan.html">
+            
+                <a href="../../shi-yong-jiao-cheng/shu-ju-ge-shi-zhuan-huan.html">
+            
+                    
+                    &#x6570;&#x636E;&#x683C;&#x5F0F;&#x8F6C;&#x6362;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../algorithms/">
+            
+                <a href="../../algorithms/">
+            
+                    
+                    &#x7B97;&#x6CD5;&#x539F;&#x7406;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../../algorithms/gene-expression-algorithms.html">
+            
+                <a href="../../algorithms/gene-expression-algorithms.html">
+            
+                    
+                    Read processing algorithms
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../../algorithms/image-processing-algorithms.html">
+            
+                <a href="../../algorithms/image-processing-algorithms.html">
+            
+                    
+                    Image processing algorithms
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../gao-ji-she-zhi/">
+            
+                <a href="../../gao-ji-she-zhi/">
+            
+                    
+                    &#x9AD8;&#x7EA7;&#x8BBE;&#x7F6E;
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../../gao-ji-she-zhi/cluster-mode.html">
+            
+                <a href="../../gao-ji-she-zhi/cluster-mode.html">
+            
+                    
+                    Cluster mode
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../../gao-ji-she-zhi/parallel-computing.html">
+            
+                <a href="../../gao-ji-she-zhi/parallel-computing.html">
+            
+                    
+                    Parallel computing
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../../gao-ji-she-zhi/rerun-analysis.html">
+            
+                <a href="../../gao-ji-she-zhi/rerun-analysis.html">
+            
+                    
+                    Rerun analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../../gao-ji-she-zhi/analysis-with-gpu.html">
+            
+                <a href="../../gao-ji-she-zhi/analysis-with-gpu.html">
+            
+                    
+                    Analysis with GPU
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../../gao-ji-she-zhi/expression-matrix-format.html">
+            
+                <a href="../../gao-ji-she-zhi/expression-matrix-format.html">
+            
+                    
+                    Expression matrix format
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../../gao-ji-she-zhi/image-related-record-format.html">
+            
+                <a href="../../gao-ji-she-zhi/image-related-record-format.html">
+            
+                    
+                    Image-related record format
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../release-notes.html">
+            
+                <a href="../../release-notes.html">
+            
+                    
+                    &#x7248;&#x672C;&#x8BF4;&#x660E;
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">&#x6280;&#x672F;&#x652F;&#x6301;</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../ji-shu-zhi-chi/shu-ju-ji.html">
+            
+                <a href="../../ji-shu-zhi-chi/shu-ju-ji.html">
+            
+                    
+                    &#x6570;&#x636E;&#x96C6;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../ji-shu-zhi-chi/cuo-wu-ma.html">
+            
+                <a href="../../ji-shu-zhi-chi/cuo-wu-ma.html">
+            
+                    
+                    &#x9519;&#x8BEF;&#x7801;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../ji-shu-zhi-chi/shi-pei-jian-rong-de-ruan-jian-he-shi-ji-he.html">
+            
+                <a href="../../ji-shu-zhi-chi/shi-pei-jian-rong-de-ruan-jian-he-shi-ji-he.html">
+            
+                    
+                    &#x9002;&#x914D;&#x517C;&#x5BB9;&#x7684;&#x8F6F;&#x4EF6;&#x548C;&#x8BD5;&#x5242;&#x76D2;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4">
+            
+                <a target="_blank" href="https://www.stomics.tech/resources/FAQ">
+            
+                    
+                    &#x5E38;&#x89C1;&#x95EE;&#x9898;
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5">
+            
+                <a target="_blank" href="https://www.stomics.tech/service/new-StereoMap.html">
+            
+                    
+                    StereoMap
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            &#x672C;&#x4E66;&#x4F7F;&#x7528; GitBook &#x53D1;&#x5E03;
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../..">Copy of HTML report</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#copy-of-html-report"><b></b>Copy of HTML report</a></li><ul><li><span class="title-icon "></span><a href="#gene-"><b></b>Gene </a></li><ul><li><span class="title-icon "></span><a href="#summary"><b></b>Summary</a></li><li><span class="title-icon "></span><a href="#square-bin"><b></b>Square Bin</a></li><li><span class="title-icon "></span><a href="#cell-bin"><b></b>Cell Bin</a></li></ul><li><span class="title-icon "></span><a href="#image"><b></b>Image</a></li><ul><li><span class="title-icon "></span><a href="#summary_1"><b></b>Summary</a></li></ul><li><span class="title-icon "></span><a href="#microbe"><b></b>Microbe</a></li><ul><li><span class="title-icon "></span><a href="#summary_2"><b></b>Summary</a></li></ul><li><span class="title-icon "></span><a href="#protein"><b></b>Protein</a></li><ul><li><span class="title-icon "></span><a href="#summary_3"><b></b>Summary</a></li><li><span class="title-icon "></span><a href="#square-bin_1"><b></b>Square Bin</a></li><li><span class="title-icon "></span><a href="#cell-bin_1"><b></b>Cell Bin</a></li></ul><li><span class="title-icon "></span><a href="#analysis-no-longer-available-since-812"><b></b>Analysis (no longer available since 8.1.2)</a></li><ul><li><span class="title-icon "></span><a href="#multiomics-clustering--umap"><b></b>Multiomics clustering &amp; UMAP</a></li><li><span class="title-icon "></span><a href="#top-markers-by-cluster"><b></b>Top markers by cluster</a></li></ul><li><span class="title-icon "></span><a href="#alerts"><b></b>Alerts</a></li></ul></ul></div><a href="#copy-of-html-report" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="copy-of-html-report"><a name="copy-of-html-report" class="anchor-navigation-ex-anchor" href="#copy-of-html-report"><i class="fa fa-link" aria-hidden="true"></i></a>Copy of HTML report</h1>
+<p><em><mark style="color:purple;">*The interpretation of the HTML report is only available in EN.</mark></em></p>
+<p><code>SAW count</code> and <code>SAW realign</code> pipelines will output an interactive report <code>&lt;SN&gt;.report.html</code> . The contents of the HTML report file will vary depending on the pipeline and parameters used but generally follow a similar format across runs.</p>
+<p>On this page, we partly demonstrate the reports of </p>
+<ul>
+<li>a mouse brain sample from Stereo-seq T FF V1.3,</li>
+<li>a mouse lung tissue sample from  Stereo-seq N FFPE V1.1,</li>
+<li>and a mouse thymus tissue sample from Stereo-CITE T  FF FFV1.0.</li>
+</ul>
+<p><strong>From SAW 8.2</strong>, the HTML report interface has undergone a significant UI upgrade, along with optimizations to the hierarchical structure and information layout. For the first time, results are presented from <strong>a multi-omics and multi-modal perspective</strong>, with primary navigation tabs such as Gene, Protein, Microbe, and Image to integrate and organize information effectively.</p>
+<p><mark style="background-color:purple;">TODO&#x624B;&#x518C;&#x4E2D;&#x7684;&#x62A5;&#x544A;&#x622A;&#x56FE;&#x5728;&#x8F6F;&#x4EF6;&#x6B63;&#x5F0F;&#x53D1;&#x5E03;&#x524D;&#x4F1A;&#x8FDB;&#x884C;&#x6700;&#x540E;&#x4E00;&#x6B21;&#x66F4;&#x65B0;&#xFF0C;&#x4F7F;&#x7528;FFPE v1.0&#x7684;demo&#x6570;&#x636E;&#xFF0C;&#x8BF7;&#x5FFD;&#x89C6;&#x5F53;&#x524D;&#x6240;&#x5C55;&#x793A;&#x56FE;&#x4E2D;&#x7684;&#x5177;&#x4F53;&#x6570;&#x636E;</mark></p>
+<h2 id="gene-"><a name="gene-" class="anchor-navigation-ex-anchor" href="#gene-"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Gene</strong> </h2>
+<h3 id="summary"><a name="summary" class="anchor-navigation-ex-anchor" href="#summary"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Summary</strong></h3>
+<figure><a href="../../img/assets/image%20(2)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (2) (1) (1).png" alt></a><figcaption><p>Expression heatmap and four key metrics</p></figcaption></figure>
+
+<figure><a href="../../img/assets/image%20(3)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (3) (1) (1).png" alt></a><figcaption><p>Display of microscope image</p></figcaption></figure>
+
+<p>The spatial gene expression distribution plot, containing all bins and bins under tissue, on the left, shows MID count at each bin200.</p>
+<p><code>Total Reads</code> is the amount of total sequencing reads of input FASTQs. <code>Mean MID per Bin200</code> and <code>Mean Gene per Bin200</code> represent the mean MID and gene type counts at each bin200 under the detected tissue region. <code>Total Genes</code> is the number of gene types from all bins.</p>
+<h4 id="gene-key-metrics"><a name="gene-key-metrics" class="anchor-navigation-ex-anchor" href="#gene-key-metrics"><i class="fa fa-link" aria-hidden="true"></i></a>Gene key metrics</h4>
+<figure><a href="../../img/assets/image%20(4)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (4) (1) (1).png" alt></a><figcaption><p>Details and sunburst plot of key metrics</p></figcaption></figure>
+
+<p>Gene key metrics of the data are listed:</p>
+<table><thead><tr><th width="227">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Total Reads (Gene)</td><td>Number of total transcriptome sequenced reads.</td></tr><tr><td><a href="../../algorithms/gene-expression-algorithms.html#cid-mapping">Valid CID Reads</a></td><td>Number of reads with CID (coordinate ID) sequences matched to the Stereo-seq chip.</td></tr><tr><td>Invalid CID Reads</td><td>Number of reads with CID (coordinate ID) sequences not matched to the Stereo-seq chip.</td></tr><tr><td>Clean Reads</td><td>Number of reads that have passed the filtering steps.</td></tr><tr><td><a href="../../algorithms/gene-expression-algorithms.html#rna-filtering">Non-Relevant Short Reads</a></td><td>Number of non-relevant short reads, i.e. the reads contain specific sequences of chip DNB, or have a length of less than 30bp after the removal of adapters and polyA tails.</td></tr><tr><td>Discarded MID Reads</td><td>Number of reads with invalid MID (Molecular ID), i.e. MID sequences contain Ns or more than 1 low quality base (Q-score &lt; 30).</td></tr><tr><td>Confidently Mapped Reads</td><td>Number of reads mapped to a single region on the genome with high confidence, i.e. this item usually includes the reads uniquely mapped to the genome, as well as the best alignment among multi-mapped reads. It is affected by the setting of the --uniquely-mapped-only option.</td></tr><tr><td><a href="../../algorithms/gene-expression-algorithms.html#annotation-to-transcriptome">Transcriptome</a></td><td>Number of reads that can be mapped to the transcripts of a single gene.</td></tr><tr><td>Unique Reads</td><td>Number of annotated reads with unique gene ID, CID (Coordinate ID), MID (Molecule ID), i.e. the reads are not PCR duplicated</td></tr><tr><td>Sequencing Saturation</td><td>Number of annotated reads corrected by MAPQ with duplicated MIDs.</td></tr><tr><td>Unannotated Reads</td><td>Number of reads that cannot be mapped to the transcripts of any gene or only a single gene.</td></tr><tr><td>Multi-Mapped Reads</td><td>Number of reads that can be mapped to multiple positions on the genome with the same high confidence level, excluding the best matching ones. It is affected by the setting of the --uniquely-mapped-only option.</td></tr><tr><td>Unmapped Reads</td><td>Number of reads that cannot be mapped to the reference genome.</td></tr><tr><td>rRNA Reads</td><td>Number of reads mapped to specific rRNA regions, according to the input reference.</td></tr></tbody></table>
+
+<h4 id="annotation"><a name="annotation" class="anchor-navigation-ex-anchor" href="#annotation"><i class="fa fa-link" aria-hidden="true"></i></a>Annotation</h4>
+<p>Metrics of reads to be annotated by GTF/GFF files.</p>
+<table><thead><tr><th width="234">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Exonic</td><td>Number of reads that can be confidently mapped to an exonic region and on the same strand of the gene.</td></tr><tr><td>Intronic</td><td>Number of reads that can be confidently mapped to an intronic region and on the same strand of the gene.</td></tr><tr><td>Intergenic</td><td>Number of reads mapped to an intergenic region and on the same strand of the genome.</td></tr><tr><td>Antisense</td><td>Number of reads mapped to the transcriptome but on the opposite strand of the annotated gene.</td></tr></tbody></table>
+
+
+
+<h4 id="tissue-region"><a name="tissue-region" class="anchor-navigation-ex-anchor" href="#tissue-region"><i class="fa fa-link" aria-hidden="true"></i></a>Tissue region</h4>
+<p>Metrics related to tissue coverage are listed:</p>
+<table><thead><tr><th width="244">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Tissue Area</td><td>Detected tissue area in mm&#xB2;.</td></tr><tr><td>MID Under Tissue</td><td>MID count under tissue. The detected tissue region depends on the automatic/manual tissue segmentation.</td></tr><tr><td>Fraction MID in Spots Under Tissue</td><td>Fraction of MID under tissue over total unique reads (Number of MID Under Tissue / Unique Reads).</td></tr></tbody></table>
+
+<h4 id="sequencing-saturation"><a name="sequencing-saturation" class="anchor-navigation-ex-anchor" href="#sequencing-saturation"><i class="fa fa-link" aria-hidden="true"></i></a>Sequencing saturation</h4>
+<figure><a href="../../img/assets/image%20(5)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (5) (1) (1).png" alt></a><figcaption><p>Sequencing saturation curves</p></figcaption></figure>
+
+<p>The saturation analysis in the HTML report can assess the overall quality of the sequencing data. In order to improve calculation efficiency, small samples are randomly selected from successfully annotated reads in the bin20 or bin50 dimension. Therefore, the results of multiple runs of the same data may vary slightly. The formulas may not be identical, but the general shape of the curve is consistent.</p>
+<ul>
+<li><strong>Figure 1</strong>: As the number of random samples increases, the gene median in the bin20 dimension gradually increases.</li>
+<li><strong>Figure 2</strong>: Curves fitted based on Unique Reads data from randomly sampled samples.</li>
+<li><strong>Figure 3</strong>: Statistics of Unique Reads (reads with unique CID, geneName and MID) in the sampled samples, saturation value = 1-(Unique Reads)/(Total Annotated Reads), as the sampling volume increases, the fitting curve becomes near-flat, indicating that the data tends to be saturated. Whether to add additional tests depends on the overall project design and sample conditions. For example, it is recommended that additional tests be performed on precious samples. The threshold value of 0.8 in the report serves as a reminder for recommended guidance.</li>
+</ul>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>The x-axis of the three graphs is the same, and the y-axis is divided into saturation value, gene median, and number of Unique Reads.</p>
+</div></div><p></p>
+<h4 id="sample-information"><a name="sample-information" class="anchor-navigation-ex-anchor" href="#sample-information"><i class="fa fa-link" aria-hidden="true"></i></a>Sample information</h4>
+<p>This item displays the basic information of the input datasets.</p>
+<table><thead><tr><th width="221.57135009765625">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Sample ID</td><td>ID for this HTML report.</td></tr><tr><td>Organism</td><td>Organism information of the sample.</td></tr><tr><td>Tissue</td><td>Tissue type of the sample.</td></tr><tr><td>Reference</td><td>Reference used for reads alignment and annotation.</td></tr><tr><td>Kit Version</td><td>Version of the Stereo-seq product kit.</td></tr><tr><td>Sequencing Type</td><td>Sequencing type for the Stereo-seq product kit.</td></tr><tr><td>Stereo-seq Chip SN</td><td>The serial number of the Stereo-seq chip.</td></tr><tr><td>FASTQ</td><td>Detailed information of input FASTQ files.</td></tr></tbody></table>
+
+<h3 id="square-bin"><a name="square-bin" class="anchor-navigation-ex-anchor" href="#square-bin"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Square Bin</strong></h3>
+<p>This page contains statistics, plots, clustering, UMAP, and differential expression analysis results, at bin dimension. Results come from the analysis based on <code>&lt;SN&gt;.tissue.gef</code> file. This sub-page will display the analysis result of bin20 and bin50 by default, which depends on <code>--custom-bin-size</code> when you start <code>SAW count/realign.</code></p>
+<h4 id="statistics"><a name="statistics" class="anchor-navigation-ex-anchor" href="#statistics"><i class="fa fa-link" aria-hidden="true"></i></a>Statistics</h4>
+<figure><a href="../../img/assets/image%20(6)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (6) (1) (1).png" alt></a><figcaption><p>Statistics of bins under tissue-coverage region</p></figcaption></figure>
+
+<p>The above table records the statistics for bin20, bin50, and bin100:</p>
+<table><thead><tr><th width="247">Item</th><th>Description</th></tr></thead><tbody><tr><td>Bin Size</td><td>A unit bin, referred to as an expression spot, is used to aggregate DNBs (on the Stereo-seq chip) within a square region (i.e., bin20 = 20 x 20 DNBs).</td></tr><tr><td>Mean Reads (per bin)</td><td>Average number of sequenced reads within a binN (under detected tissue region).</td></tr><tr><td>Median Reads (per bin)</td><td>Median number of sequenced reads within a binN (under detected tissue region).</td></tr><tr><td>Mean Gene Type (per bin)</td><td>Average number of gene type within a binN (under detected tissue region).</td></tr><tr><td>Median Gene Type (per bin)</td><td>Median number of gene type within a binN (under detected tissue region).</td></tr><tr><td>Mean MID (per bin)</td><td>Average number of MID count within a binN (under detected tissue region).</td></tr><tr><td>Median MID (per bin)</td><td>Median number of MID count within a binN (under detected tissue region).</td></tr></tbody></table>
+
+<h4 id="plots"><a name="plots" class="anchor-navigation-ex-anchor" href="#plots"><i class="fa fa-link" aria-hidden="true"></i></a>Plots</h4>
+<figure><a href="../../img/assets/image%20(7)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (7) (1) (1).png" alt></a><figcaption><p>Distribution plots of MID and gene type</p></figcaption></figure>
+
+<p>Violin plots show the distribution of deduplicated MID count and gene types in each bin.</p>
+<h4 id="clustering--umap"><a name="clustering--umap" class="anchor-navigation-ex-anchor" href="#clustering--umap"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Clustering &amp; UMAP</strong></h4>
+<figure><a href="../../img/assets/image%20(8)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (8) (1) (1).png" alt></a><figcaption><p>Leiden clustering and UMAP projection</p></figcaption></figure>
+
+<p>Clustering is performed based on <code>SN.tissue.gef</code> using the Leiden algorithm. UMAP projections are performed based on <code>SN.tissue.gef</code> and colored by automated clustering. The same color is assigned to spots that are within a shorter distance and with similar gene expression profiles.</p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Note that this part will present the results of certain large-sized Stereo-seq chips through downsampling to reduce file size, minimize spot overlap, and ensure a smooth display, especially in cases where there are an excessive number of spots to visualize. </p>
+<p>We discovered that when the number of spots in the graph exceeds one million, it significantly impacts both the visual mapping quality and file reading performance. Consequently, we implemented downsampling. A smaller bin size requires a greater number of spots for effective mapping. For detailed information regarding the downsampling ratio and step size, please refer to the report module log. If you want to conduct in-depth data visualization and downstream analysis, StereoMap is a better choice.</p>
+</div></div><p></p>
+<h4 id="differential-expression-analysis"><a name="differential-expression-analysis" class="anchor-navigation-ex-anchor" href="#differential-expression-analysis"><i class="fa fa-link" aria-hidden="true"></i></a>Differential expression analysis</h4>
+<figure><a href="../../img/assets/image%20(9)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (9) (1) (1).png" alt></a><figcaption><p>Marker feature table</p></figcaption></figure>
+
+<p>The goal of the differential expression analysis is to identify markers that are more highly expressed in a cluster than the rest of the sample. For each marker, a differential expression test was run between each cluster and the remaining sample. An estimate of the log2 ratio of expression in a cluster to that in other coordinates is Log2 fold-change (L2FC). A value of 1.0 denotes a 2-fold increase in expression within the relevant cluster. Based on a negative binomial test, the p-value indicates the expression difference&apos;s statistical significance. The Benjamini-Hochberg method has been used to correct the p-value for multiple testing. Additionally, the top N features by L2FC for each cluster were kept after features in this table were filtered by (Mean UMI counts &gt; 1.0). Grayed-out features have an adjusted p-value &gt;= 0.10 or an L2FC &lt; 0. N (ranges from 1 to 50) is the number of top features displayed per cluster, which is set to limit the amount of table entries displayed to 10,000. N=%10,000/K^2 where K is the number of clusters. Click on a column to sort by that value, or search a gene of interest.</p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>When the values of L2FC in the marker feature table are blank, &quot;infinity&quot; and &quot;-infinity&quot;, the analysis results are normal. These conditions are well explained below.</p>
+</div></div><p></p>
+<p>The calculation of L2FC is related to the expression number of cells of a certain gene in the case group and the control group. Since the calculation of L2FC uses the natural logarithm as the base, when the expression relationship has extremely high or low values, the three special values, none, &quot;inf&quot; and &quot;-inf&quot;, will appear. The screenshot below uses inf and a constant to make a simple demonstration.</p>
+<figure><a href="../../img/assets/image%20(56).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (56).png" alt></a><figcaption><p>An example in Notebook using Python</p></figcaption></figure>
+
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p>The p-values should be increasing as the list descends (with a maximum of 1), infinitely close to 0. </p>
+<p>If you find that the p-value is 0 in the result table, it may be because the calculated differential expression feature is extremely significant, leading to an extremely small p-value. This can exceed the limit of the data type (usually <code>float64</code>, depending on the basic computing package), resulting in a situation that cannot be expressed in scientific notation.</p>
+</div></div><p></p>
+<h3 id="cell-bin"><a name="cell-bin" class="anchor-navigation-ex-anchor" href="#cell-bin"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Cell Bin</strong></h3>
+<p>This page contains results of statistics, plots, clustering, UMAP, and differential expression analysis, at cellbin dimension. Cell border expanding is automatically performed during <code>SAW count</code> and <code>SAW realign</code>, which means the contents of &quot;Cell Bin&quot; tab are based on <code>SN.adjusted.cellbin.gef</code>. </p>
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p>When it comes to <code>--adjusted-distance=0</code> in <code>SAW realign</code>, all contents of this tab are based on <code>SN.cellbin.gef</code>. </p>
+</div></div><p></p>
+<h4 id="statistics_1"><a name="statistics_1" class="anchor-navigation-ex-anchor" href="#statistics_1"><i class="fa fa-link" aria-hidden="true"></i></a>Statistics</h4>
+<figure><a href="../../img/assets/image%20(10)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (10) (1) (1).png" alt></a><figcaption><p>Detailed statistics of cellbin</p></figcaption></figure>
+
+<p>The above table records the statistics of cellbin:</p>
+<table><thead><tr><th width="295">Item</th><th>Description</th></tr></thead><tbody><tr><td>Cell Count</td><td>Detected cell numbers with MID count&gt;=1.</td></tr><tr><td>Mean Cell Area</td><td>Mean cell area in &#x3BC;m&#xB2;, excluding cells with MID count=0.</td></tr><tr><td>Median Cell Area</td><td>Median cell area in &#x3BC;m&#xB2;, excluding cells with MID count=0.</td></tr><tr><td>Mean Gene Type</td><td>Mean gene type per cell, excluding cells with MID count=0.</td></tr><tr><td>Median Gene Type</td><td>Median gene type per cell, excluding cells with MID count=0.</td></tr><tr><td>Mean MID</td><td>Mean MID count per cell, excluding cells with MID count=0.</td></tr><tr><td>Median MID</td><td>Median MID count per cell, excluding cells with MID count=0.</td></tr></tbody></table>
+
+<h4 id="plots_1"><a name="plots_1" class="anchor-navigation-ex-anchor" href="#plots_1"><i class="fa fa-link" aria-hidden="true"></i></a>Plots</h4>
+<figure><a href="../../img/assets/image%20(11)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (11) (1) (1).png" alt></a><figcaption><p>Distribution plots of MID, gene type and cell area</p></figcaption></figure>
+
+<p>Violin plots show the distribution of deduplicated MID count, gene types and cell area in the cellbin.</p>
+<h4 id="clustering--umap_1"><a name="clustering--umap_1" class="anchor-navigation-ex-anchor" href="#clustering--umap_1"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Clustering &amp; UMAP</strong></h4>
+<figure><a href="../../img/assets/image%20(12)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (12) (1) (1).png" alt></a><figcaption><p>Leiden clustering and UMAP projection</p></figcaption></figure>
+
+<p>Clustering is performed based on <code>SN.adjusted.cellbin.gef</code> or <code>SN.cellbin.gef</code>, using the Leiden algorithm. UMAP projections are performed based on <code>SN.adjusted.cellbin.gef</code> or <code>SN.cellbin.gef</code>, and colored by automated clustering. The same color is assigned to spots that are within a shorter distance and with similar gene expression profiles.</p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Note that this part will present the results of certain large-sized Stereo-seq chips through downsampling to reduce file size, minimize spot overlap, and ensure a smooth display, especially in cases where there are an excessive number of spots to visualize. </p>
+<p>We discovered that when the number of spots in the graph exceeds one million, it significantly impacts both the visual mapping quality and file reading performance. Consequently, we implemented downsampling. A smaller bin size requires a greater number of spots for effective mapping. For detailed information regarding the downsampling ratio and step size, please refer to the report module log. If you want to conduct in-depth data visualization and downstream analysis, StereoMap is a better choice.</p>
+</div></div><p></p>
+<h4 id="differential-expression-analysis_1"><a name="differential-expression-analysis_1" class="anchor-navigation-ex-anchor" href="#differential-expression-analysis_1"><i class="fa fa-link" aria-hidden="true"></i></a>Differential expression analysis</h4>
+<figure><a href="../../img/assets/image%20(13)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (13) (1) (1).png" alt></a><figcaption><p>Marker feature table</p></figcaption></figure>
+
+<p>The goal of the differential expression analysis is to identify markers that are more highly expressed in a cluster than the rest of the sample. For each marker, a differential expression test was run between each cluster and the remaining sample. An estimate of the log2 ratio of expression in a cluster to that in other coordinates is Log2 fold-change (L2FC). A value of 1.0 denotes a 2-fold increase in expression within the relevant cluster. Based on a negative binomial test, the p-value indicates the expression difference&apos;s statistical significance. The Benjamini-Hochberg method has been used to correct the p-value for multiple testing. Additionally, the top N features by L2FC for each cluster were kept after features in this table were filtered by (Mean UMI counts &gt; 1.0). Grayed-out features have an adjusted p-value &gt;= 0.10 or an L2FC &lt; 0. N (ranges from 1 to 50) is the number of top features displayed per cluster, which is set to limit the amount of table entries displayed to 10,000. N=%10,000/K^2 where K is the number of clusters. Click on a column to sort by that value, or search a gene of interest.</p>
+<p></p><div class="alert alert-info hints-alert"><div class="hints-icon"><i class="fa fa-info-circle"></i></div><div class="hints-container"><p>Interpretation for exceptional cases related to differential expression analysis can be found under <a href="html-report-1.html#differential-expression-analysis">Square Bin</a> part.</p>
+</div></div><p></p>
+<h2 id="image"><a name="image" class="anchor-navigation-ex-anchor" href="#image"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Image</strong></h2>
+<h3 id="summary_1"><a name="summary_1" class="anchor-navigation-ex-anchor" href="#summary_1"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Summary</strong></h3>
+<h4 id="image-information"><a name="image-information" class="anchor-navigation-ex-anchor" href="#image-information"><i class="fa fa-link" aria-hidden="true"></i></a>Image information</h4>
+<p>Basic information about the microscopic staining image, usually involving microscope settings.</p>
+<h4 id="qc"><a name="qc" class="anchor-navigation-ex-anchor" href="#qc"><i class="fa fa-link" aria-hidden="true"></i></a>QC</h4>
+<table><thead><tr><th width="232">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Image QC version</td><td>Version of Image QC module.</td></tr><tr><td>QC Pass</td><td>Whether the image(s) has passed the quality check of Image QC module.</td></tr><tr><td>Trackline Score</td><td>A reference score for evaluating whether the detected tracklines can be utilized for image stitching and registration with the gene expression matrix. (Note that the score only evaluates whether the program has detected tracklines in the image. It does not infer the clarity of the lines or the images.)</td></tr></tbody></table>
+
+<h4 id="registration"><a name="registration" class="anchor-navigation-ex-anchor" href="#registration"><i class="fa fa-link" aria-hidden="true"></i></a>Registration</h4>
+<table><thead><tr><th width="256">Metric</th><th>Description</th></tr></thead><tbody><tr><td>ScaleX</td><td>The horizontal scale factor (calculated by the image algorithms) between the microscope image and the trackline template.</td></tr><tr><td>ScaleY</td><td>The vertical scale factor (calculated by the image algorithms) between the microscope image and the trackline template.</td></tr><tr><td>Rotation</td><td>The rotational transformation of N degress (calculated by the image algorithms) maps the microscope image onto the trackline template.</td></tr><tr><td>Flip</td><td>Indicate whether the image has been flipped horizontally.</td></tr><tr><td>Image X Offset</td><td>Offset between microscope image and gene expression matrix in horizontal direction.</td></tr><tr><td>Image Y Offset</td><td>Offset between microscope image and gene expression matrix in vertical direction.</td></tr><tr><td>Counter Clockwise Rotation</td><td>The angle of rotation in a counter clockwise direction.</td></tr><tr><td>Manual ScaleX</td><td>The horizontal scale factor (modified by manual processing) between the microscope image and the trackline template.</td></tr><tr><td>Manual ScaleY</td><td>The vertical scale factor (modified by manual processing) between the microscope image and the trackline template.<br>The vertical scaling factor based on the raw image center (manual-registration)</td></tr><tr><td>Manual Rotation</td><td>The rotational transformation of N degress (modified by manual processing) maps the microscope image onto the feature expression matrix.</td></tr><tr><td>Matrix X Offset</td><td>X-axis starting point of the feature expression matrix.</td></tr><tr><td>Matrix Y Offset</td><td>Y-axis starting point of the feature expression matrix.</td></tr><tr><td>Matrix Height</td><td>Height of the feature expression matrix.</td></tr><tr><td>Matrix Width</td><td>Width of the feature expression matrix.</td></tr></tbody></table>
+
+<h4 id="tissue-detection-and-alignment"><a name="tissue-detection-and-alignment" class="anchor-navigation-ex-anchor" href="#tissue-detection-and-alignment"><i class="fa fa-link" aria-hidden="true"></i></a>Tissue detection and alignment</h4>
+<figure><a href="../../img/assets/image%20(14)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (14) (1) (1).png" alt></a><figcaption><p>Observation of alignment between matrix and image</p></figcaption></figure>
+
+<p>These thumbnail images are the four corners of the detected tissue region.The thumbnail display of the registration details, allows you to observe whether the image has been properly aligned with the matrix. Inspect the crosslines derived from the matrix to verify if they correspond with the tracklines on the microscope image. </p>
+<h2 id="microbe"><a name="microbe" class="anchor-navigation-ex-anchor" href="#microbe"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Microbe</strong></h2>
+<h3 id="summary_2"><a name="summary_2" class="anchor-navigation-ex-anchor" href="#summary_2"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Summary</strong></h3>
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p>Here is an another FFPE tissue sample of mouse lung which is especially for microorganism analysis.</p>
+</div></div><p></p>
+<figure><a href="../../img/assets/image%20(15)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (15) (1) (1).png" alt></a><figcaption><p>Microorganism heatmap under tissue region and four key metrics</p></figcaption></figure>
+
+<p>The distribution plot of microorganism spatial expression, on the left, shows MID count at bin200.</p>
+<h4 id="microbe-key-metrics"><a name="microbe-key-metrics" class="anchor-navigation-ex-anchor" href="#microbe-key-metrics"><i class="fa fa-link" aria-hidden="true"></i></a>Microbe key metrics</h4>
+<figure><a href="../../img/assets/image%20(16)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (16) (1) (1).png" alt></a><figcaption><p>Mapping results of Bowtie2 and Kraken2</p></figcaption></figure>
+
+<table><thead><tr><th width="244">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Unmapped Reads</td><td>Unmapped Reads are generated from transcriptome alignment, as input data for the microorganism detection.</td></tr><tr><td>Non-Host Source Reads</td><td>Number of reads that cannot be aligned to the host genome. Denoising is conducted using Bowtie2.</td></tr><tr><td>Host Source Reads</td><td>Number of reads that can be aligned to the host genome during the denoising.</td></tr><tr><td>Non-Host Source Reads (under tissue)</td><td>Number of reads that cannot be aligned to the host genome and located in the region of tissue detection. Denoising is conducted using Bowtie2.</td></tr><tr><td>Unclassified Reads</td><td>Number of unclassified reads, based on the input taxonomy database.</td></tr><tr><td>Microbe MIDs</td><td>Number of MIDs assigned to bacteria, fungi or viruses.</td></tr><tr><td>Microbe Duplication</td><td>Number of the reads assigned to bacteria, fungi or viruses that have been corrected due to duplicated MID.</td></tr><tr><td>Others</td><td>Number of reads mapped to other microbes, excluding bacteria, fungi and viruses, or host-suspicious ones.</td></tr></tbody></table>
+
+<h4 id="top-10-phyla"><a name="top-10-phyla" class="anchor-navigation-ex-anchor" href="#top-10-phyla"><i class="fa fa-link" aria-hidden="true"></i></a>Top 10 Phyla</h4>
+<figure><a href="../../img/assets/image%20(17)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (17) (1) (1).png" alt></a><figcaption><p>Microbes proportion at phylum level</p></figcaption></figure>
+
+<p>The main proportion of microbes at the phylum level.</p>
+<p><em>*the same for other classifications</em></p>
+<h2 id="protein"><a name="protein" class="anchor-navigation-ex-anchor" href="#protein"><i class="fa fa-link" aria-hidden="true"></i></a>Protein</h2>
+<h3 id="summary_3"><a name="summary_3" class="anchor-navigation-ex-anchor" href="#summary_3"><i class="fa fa-link" aria-hidden="true"></i></a>Summary</h3>
+<figure><a href="../../img/assets/image%20(18)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (18) (1) (1).png" alt></a><figcaption><p>Expression heatmap and four key metrics</p></figcaption></figure>
+
+<figure><a href="../../img/assets/image%20(19)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (19) (1) (1).png" alt></a><figcaption><p>Display of microscope image</p></figcaption></figure>
+
+<p>The spatial protein expression distribution plot, containing all bins and bins under tissue, on the left, shows MID count at each bin200.</p>
+<p><code>Total Reads</code> is the total sequencing reads of input sequencing ADT FASTQs. <code>Valid CID reads</code> represents the number of reads with CIDs matching the mask file, with MIDs passing QC. <code>Valid PID reads</code> represents the number of reads that are mapped to the PID sequence in the protein panel. <code>Unique PID reads</code> represents the total number of unique protein reads (PID reads whose MIDs are different).</p>
+<h4 id="protein-key-metrics"><a name="protein-key-metrics" class="anchor-navigation-ex-anchor" href="#protein-key-metrics"><i class="fa fa-link" aria-hidden="true"></i></a>Protein key metrics</h4>
+<figure><a href="../../img/assets/image%20(20)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (20) (1) (1).png" alt></a><figcaption><p>Details and sunburst plot of key metric</p></figcaption></figure>
+
+<p>Key metrics of the data are listed:</p>
+<table><thead><tr><th width="234">Metrics</th><th>Description</th></tr></thead><tbody><tr><td>Total Reads (Protein)</td><td>Number of total proteome sequenced reads.</td></tr><tr><td>Valid CID Reads</td><td>Number of reads with CID (coordinate ID) seuqences that can be matched to the Stereo-seq chip.</td></tr><tr><td>Invalid CID Reads</td><td>Number of reads with CID (coordinate ID) seuqences that cannot be matched to the Stereo-seq chip.</td></tr><tr><td>Valid PID Reads</td><td>Number of reads that can be mapped to the PID (protein ID) sequences, based on the input PID list.</td></tr><tr><td>Invalid PID Reads</td><td>Number of reads that cannot be mapped to the PID (protein ID) sequences, based on the input PID list.</td></tr><tr><td>Unique PID Reads</td><td>Number of protein reads mapped to the PID (protein ID) list after PCR deduplication, with unique PID, CID (coordinate ID) and MID (Molecule ID).</td></tr><tr><td>Sequencing Saturation</td><td>Number of protein reads with PCR duplication.</td></tr></tbody></table>
+
+<h4 id="sequencing-saturation_1"><a name="sequencing-saturation_1" class="anchor-navigation-ex-anchor" href="#sequencing-saturation_1"><i class="fa fa-link" aria-hidden="true"></i></a>Sequencing saturation</h4>
+<figure><a href="../../img/assets/image%20(21)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (21) (1) (1).png" alt></a><figcaption><p>Sequencing saturation curves</p></figcaption></figure>
+
+<p>The saturation analysis in the HTML report can assess the overall quality of the sequencing data. In order to improve calculation efficiency, small samples are randomly selected from successfully annotated reads in the bin20 or bin50 dimension. Therefore, the results of multiple runs of the same data may vary slightly. The formulas may not be identical, but the general shape of the curve is consistent.</p>
+<ul>
+<li><strong>Figure 1</strong>: Curves fitted based on Unique Reads data from randomly sampled samples.</li>
+<li><strong>Figure 2</strong>: Statistics of Unique Reads (reads with unique CID, PID and MID) in the sampled samples, saturation value = 1-(Unique Reads)/(Valid PID Reads), as the sampling volume increases, the fitting curve becomes near-flat, indicating that the data tends to be saturated. Whether to add additional tests depends on the overall project design and sample conditions. For example, it is recommended that additional tests be performed on precious samples. The threshold value of 0.8 in the report serves as a reminder for recommended guidance.</li>
+</ul>
+<h4 id="protein-correlations"><a name="protein-correlations" class="anchor-navigation-ex-anchor" href="#protein-correlations"><i class="fa fa-link" aria-hidden="true"></i></a>Protein correlations</h4>
+<p>Spearman correlation (in bin200) between raw antibody counts under tissue, except isotype. Antibodies are clustered based on the Spearman correlation coefficient.</p>
+<figure><a href="../../img/assets/image%20(22)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (22) (1) (1).png" alt></a><figcaption><p>Correlation plot within proteins</p></figcaption></figure>
+
+<h4 id="gene--protein-correlations"><a name="gene--protein-correlations" class="anchor-navigation-ex-anchor" href="#gene--protein-correlations"><i class="fa fa-link" aria-hidden="true"></i></a>Gene : protein correlations</h4>
+<p>Spearman correlation (in bin200) between raw gene counts and raw antibody counts under tissue, where the antibody has at least one marker gene in the protein panel.</p>
+<figure><a href="../../img/assets/image%20(23)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (23) (1) (1).png" alt></a><figcaption><p>Correlation plot within gene-protein</p></figcaption></figure>
+
+<h4 id="histogram-of-protein-counts"><a name="histogram-of-protein-counts" class="anchor-navigation-ex-anchor" href="#histogram-of-protein-counts"><i class="fa fa-link" aria-hidden="true"></i></a>Histogram of protein counts</h4>
+<p>Distribution of spot numbers vs log-scaled MID count (in bin200).</p>
+<figure><a href="../../img/assets/image%20(24)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (24) (1) (1).png" alt></a><figcaption><p>Histogram plot between spot numbers and log-scaled MID count</p></figcaption></figure>
+
+<h4 id="sample-information_1"><a name="sample-information_1" class="anchor-navigation-ex-anchor" href="#sample-information_1"><i class="fa fa-link" aria-hidden="true"></i></a>Sample information</h4>
+<p>This item displays the basic information of the input datasets.</p>
+<table><thead><tr><th width="221.57135009765625">Metric</th><th>Description</th></tr></thead><tbody><tr><td>Sample ID</td><td>ID for this HTML report.</td></tr><tr><td>Organism</td><td>Organism information of the sample.</td></tr><tr><td>Tissue</td><td>Tissue type of the sample.</td></tr><tr><td>Reference</td><td>Reference used for reads alignment and annotation.</td></tr><tr><td>Kit Version</td><td>Version of the Stereo-seq product kit.</td></tr><tr><td>Sequencing Type</td><td>Sequencing type for the Stereo-seq product kit.</td></tr><tr><td>Stereo-seq Chip SN</td><td>The serial number of the Stereo-seq chip.</td></tr><tr><td>FASTQ</td><td>Detailed information of input FASTQ files.</td></tr></tbody></table>
+
+<h3 id="square-bin_1"><a name="square-bin_1" class="anchor-navigation-ex-anchor" href="#square-bin_1"><i class="fa fa-link" aria-hidden="true"></i></a>Square Bin</h3>
+<p>This page contains results of statistics, plots, clustering, UMAP, and differential expression analysis, at bin dimension. Results come from the analysis based on <code>&lt;SN&gt;.protein.tissue.gef</code> file. This sub-page will display the analysis result of bin20 and bin50 by default, which depends on <code>--custom-bin-size</code> when you start <code>SAW count/realign.</code></p>
+<h4 id="statistics_2"><a name="statistics_2" class="anchor-navigation-ex-anchor" href="#statistics_2"><i class="fa fa-link" aria-hidden="true"></i></a>Statistics</h4>
+<figure><a href="../../img/assets/image%20(25)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (25) (1) (1).png" alt></a><figcaption><p>Statistics of bins under tissue-coverage region</p></figcaption></figure>
+
+<table><thead><tr><th width="247">Item</th><th>Description</th></tr></thead><tbody><tr><td>Bin Size</td><td>A unit bin, referred to as an expression spot, is used to aggregate DNBs (on the Stereo-seq chip) within a square region (i.e., bin20 = 20 x 20 DNBs).</td></tr><tr><td>Mean Reads (per bin)</td><td>Average number of sequencing reads within a binN (under detected tissue region).</td></tr><tr><td>Median Reads (per bin)</td><td>Median number of sequencing reads within a binN (under detected tissue region).</td></tr><tr><td>Mean MID (per bin)</td><td>Average number of MID count within a binN (under detected tissue region).</td></tr><tr><td>Median MID (per bin)</td><td>Median number of MID count within a binN (under detected tissue region).</td></tr></tbody></table>
+
+<h4 id="plots_2"><a name="plots_2" class="anchor-navigation-ex-anchor" href="#plots_2"><i class="fa fa-link" aria-hidden="true"></i></a>Plots</h4>
+<figure><a href="../../img/assets/image%20(26)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (26) (1) (1).png" alt></a><figcaption><p>Distribution plots of MID</p></figcaption></figure>
+
+<p>Violin plots show the distribution of deduplicated MID count in each bin size.</p>
+<h4 id="clustering--umap_2"><a name="clustering--umap_2" class="anchor-navigation-ex-anchor" href="#clustering--umap_2"><i class="fa fa-link" aria-hidden="true"></i></a>Clustering &amp; UMAP</h4>
+<figure><a href="../../img/assets/image%20(27)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (27) (1) (1).png" alt></a><figcaption><p>Leiden clustering and UMAP projection</p></figcaption></figure>
+
+<p>Clustering is performed based on <code>SN.protein.tissue.gef</code> using the Leiden algorithm. UMAP projections are performed based on <code>SN.protein.tissue.gef</code> and colored by automated clustering. The same color is assigned to spots that are within a shorter distance and with similar gene expression profiles.</p>
+<h3 id="cell-bin_1"><a name="cell-bin_1" class="anchor-navigation-ex-anchor" href="#cell-bin_1"><i class="fa fa-link" aria-hidden="true"></i></a>Cell Bin</h3>
+<p>This page contains results of statistics, plots, clustering, UMAP, and differential expression analysis, at cellbin dimension. Cell border expanding is automatically performed during <code>SAW count</code> and <code>SAW realign</code>, which means the contents of &quot;Cell Bin&quot; tab are based on <code>SN.protein.adjusted.cellbin.gef</code>. </p>
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p>When it comes to <code>--adjusted-distance=0</code> in <code>SAW realign</code>, all contents of this tab are based on <code>SN.protein.cellbin.gef</code>. </p>
+</div></div><p></p>
+<h4 id="statistics_3"><a name="statistics_3" class="anchor-navigation-ex-anchor" href="#statistics_3"><i class="fa fa-link" aria-hidden="true"></i></a>Statistics</h4>
+<figure><a href="../../img/assets/image%20(28)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (28) (1) (1).png" alt></a><figcaption><p>Detailed statistics of cellbin</p></figcaption></figure>
+
+<p>The above table records the statistics of cellbin:</p>
+<table><thead><tr><th width="247">Item</th><th>Description</th></tr></thead><tbody><tr><td>Cell Count</td><td>Detected cell numbers with MID count&gt;=1.</td></tr><tr><td>Mean Cell Area</td><td>Mean cell area in &#x3BC;m&#xB2;, excluding cells with MID count=0.</td></tr><tr><td>Median Cell Area</td><td>Median cell area in &#x3BC;m&#xB2;, excluding cells with MID count=0.</td></tr><tr><td>Mean MID</td><td>Mean MID count per cell, excluding cells with MID count=0.</td></tr><tr><td>Median MID</td><td>Median MID count per cell, excluding cells with MID count=0.</td></tr></tbody></table>
+
+<h4 id="plots_3"><a name="plots_3" class="anchor-navigation-ex-anchor" href="#plots_3"><i class="fa fa-link" aria-hidden="true"></i></a>Plots</h4>
+<figure><a href="../../img/assets/image%20(29)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (29) (1) (1).png" alt></a><figcaption><p>Distribution plots of MID and cell area</p></figcaption></figure>
+
+<p>Violin plots show the distribution of deduplicated MID count and cell area in the cellbin.</p>
+<h4 id="clustering--umap_3"><a name="clustering--umap_3" class="anchor-navigation-ex-anchor" href="#clustering--umap_3"><i class="fa fa-link" aria-hidden="true"></i></a>Clustering &amp; UMAP</h4>
+<figure><a href="../../img/assets/image%20(30)%20(1)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (30) (1) (1).png" alt></a><figcaption><p>Leiden clustering and UMAP projection</p></figcaption></figure>
+
+<p>Clustering is performed based on <code>SN.protein.adjusted.cellbin.gef</code> or <code>SN.protein.cellbin.gef</code>, using the Leiden algorithm. UMAP projections are performed based on <code>SN.protein.adjusted.cellbin.gef</code> or <code>SN.protein.cellbin.gef</code>, and colored by automated clustering. The same color is assigned to spots that are within a shorter distance and with similar gene expression profiles.</p>
+<h2 id="analysis-no-longer-available-since-812"><a name="analysis-no-longer-available-since-812" class="anchor-navigation-ex-anchor" href="#analysis-no-longer-available-since-812"><i class="fa fa-link" aria-hidden="true"></i></a>Analysis (no longer available since 8.1.2)</h2>
+<p>This page contains results of clustering from proteome &amp; transcriptome joint analysis, marker selection, and correlation between genes and proteins. </p>
+<h3 id="multiomics-clustering--umap"><a name="multiomics-clustering--umap" class="anchor-navigation-ex-anchor" href="#multiomics-clustering--umap"><i class="fa fa-link" aria-hidden="true"></i></a>Multiomics clustering &amp; UMAP</h3>
+<p>Clustering and UMAP projections are performed based on the latent space generated by <strong>totalVI</strong>.</p>
+<h3 id="top-markers-by-cluster"><a name="top-markers-by-cluster" class="anchor-navigation-ex-anchor" href="#top-markers-by-cluster"><i class="fa fa-link" aria-hidden="true"></i></a>Top markers by cluster</h3>
+<p>Heatmaps of top &lt;=3 gene and protein markers per Leiden cluster from gene-protein jointly analysis. These features are filtered after one-vs-all differential expression analysis, following these rules:</p>
+<ul>
+<li>For gene, Bayes factor &gt; 1 and  expression proportion greater than 10% in the cluster;</li>
+<li>For protein, Bayes factor &gt; 0.7.</li>
+</ul>
+<h2 id="alerts"><a name="alerts" class="anchor-navigation-ex-anchor" href="#alerts"><i class="fa fa-link" aria-hidden="true"></i></a><strong>Alerts</strong></h2>
+<p>Thresholds are set for several important statistical indicators. If the analysis results are abnormal, an alert message will be displayed at the top of the HTML report.</p>
+<p></p><div class="alert alert-undefined hints-alert"><div class="hints-icon"><i class="undefined"></i></div><div class="hints-container"><p>Here is an abnormal example of data just for display.</p>
+</div></div><p></p>
+<figure><a href="../../img/assets/image%20(31)%20(1).png" data-lightbox="a034c49b-9358-4077-a706-a0a1d6693b3a" data-title><img src="../../img/assets/image (31) (1).png" alt></a><figcaption><p>Alert information</p></figcaption></figure>
+
+
+<footer class="page-footer"><span class="copyright">&#xA9; 2025 STOmics Tech. All rights reserved.</span><span class="footer-modification">Modified: 
+2025-09-17 12:01:46
+</span></footer><script>document.addEventListener("DOMContentLoaded", function() {lightbox.option({"resizeDuration":200,"wrapAround":true});})</script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> results matching &quot;<span class="search-query"></span>&quot;</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching &quot;<span class="search-query"></span>&quot;</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="html-report.html" class="navigation navigation-prev " aria-label="Previous page: HTML report">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="bam.html" class="navigation navigation-next " aria-label="Next page: BAM">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Copy of HTML report","level":"1.4.3.4","depth":3,"next":{"title":"BAM","level":"1.4.3.5","depth":3,"path":"analysis/outputs/bam.md","ref":"analysis/outputs/bam.md","articles":[]},"previous":{"title":"HTML report","level":"1.4.3.3","depth":3,"path":"analysis/outputs/html-report.md","ref":"analysis/outputs/html-report.md","articles":[]},"dir":"ltr"},"config":{"plugins":["expandable-chapters-small","anchor-navigation-ex","logo","-insert-logo","tbfed-pagefooter","hide-element","-code-optimize","katex","hints","tabs","lightbox","-lunr","-search","search-plus","add-index-html","anchor-to-full-links"],"root":".","styles":{},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"© 2025 STOmics Tech.","modify_label":"Modified: ","modify_format":"YYYY-MM-DD HH:mm:ss"},"logo":{"logo":"data:image/png;base64,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","title":"SAW 用户手册 8.2 ","titleStyle":"font-weight:600"},"hints":{"danger":"fa fa-exclamation-circle","info":"fa fa-info-circle","tip":"fa fa-mortar-board","working":"fa fa-wrench"},"hide-element":{"elements":[".gitbook-link"]},"katex":{},"add-index-html":{"myConfigKey":"it's the default value","elements":["a"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"printLog":true,"showGoTop":true,"showLevel":false},"anchor-to-full-links":{"myConfigKey":"it's the default value","elements":["a"]},"lightbox":{"jquery":true,"includeJQuery":true,"sameUuid":true,"options":{"resizeDuration":200,"wrapAround":true}},"expandable-chapters-small":{},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"code-optimize":{"copyButtons":true,"showLines":true},"tabs":{},"search-plus":{}},"theme":"default","author":"","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"title":"SAW User Manual","language":"zh-hans","links":{"gitbook":false,"sharing":{"google":false,"facebook":false,"twitter":false,"all":false}},"gitbook":"3.2.3","description":null,"extension":null},"file":{"path":"analysis/outputs/html-report-1.md","mtime":"2025-09-17T04:01:46.142Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2025-09-17T04:02:06.734Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-tabs/bootstrap.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-add-index-html/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-anchor-to-full-links/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
